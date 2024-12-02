@@ -7,7 +7,7 @@ import putData from "../helpers/put";
 export default function BookForm({ setUpdate, book }) {
   const [error, setError] = useState("");
   const navigate = useNavigate();
-  
+
   const {
     register,
     handleSubmit,
@@ -50,31 +50,35 @@ export default function BookForm({ setUpdate, book }) {
 
   return (
     <>
-      {book ? <h1>Redaguoti knyga {book.id} </h1> : <h1>Knygu pridejimas</h1>}
-      <form onSubmit={handleSubmit(bookSubmitHandle)} noValidate>
-        <div>
-          <label>
-            Knygos Pavadinimas
-            <input
-              type="text"
-              id="title"
-              {...register("title", {
-                required: "Laukas yra privalomas",
-                validate: {
-                  lenghtShort: (fieldValue) =>
-                    fieldValue.length >= 3 ||
-                    "pavadinimas negali buti trumpesnis nei 3 simboliai",
-                  lengthLong: (fieldValue) =>
-                    fieldValue.length < 100 || "pavadinimas per ilgas",
-                },
-              })}
-            />
-          </label>
-          <div>{errors.title?.message}</div>
-        </div>
-        <div>
+      {book ? (
+        <h1 className="text-xl text-center">Redaguoti knyga {book.id} </h1>
+      ) : (
+        <h1 className="text-xl text-center">Knygu pridejimas</h1>
+      )}
+      <form
+        className="grid col-span-2 justify-center"
+        onSubmit={handleSubmit(bookSubmitHandle)}
+        noValidate
+      >
+        <label>Knygos Pavadinimas</label>
+        <input
+          type="text"
+          id="title"
+          {...register("title", {
+            required: "Laukas yra privalomas",
+            validate: {
+              lenghtShort: (fieldValue) =>
+                fieldValue.length >= 3 ||
+                "pavadinimas negali buti trumpesnis nei 3 simboliai",
+              lengthLong: (fieldValue) =>
+                fieldValue.length < 100 || "pavadinimas per ilgas",
+            },
+          })}
+        />
+        <div>{errors.title?.message}</div>
           <label>
             Autorius
+            </label>
             <input
               type="text"
               id="author"
@@ -86,11 +90,9 @@ export default function BookForm({ setUpdate, book }) {
                 },
               })}
             />
-          </label>
-        </div>
-        <div>
           <label>
             Kategorija
+            </label>
             <select
               id="category"
               {...register("category", { required: "Laukas yra privalomas" })}
@@ -105,13 +107,10 @@ export default function BookForm({ setUpdate, book }) {
               <option value="Fantasy">Fantasy</option>
               <option value="Adventure">Adventure</option>
             </select>
-          </label>
           <div>{errors.category?.message}</div>
-        </div>
-        <div>
           <label>
-            {" "}
             Kaina
+            </label>
             <input
               type="text"
               id="price"
@@ -123,13 +122,10 @@ export default function BookForm({ setUpdate, book }) {
                 },
               })}
             />
-          </label>
           <div>{errors.price?.message}</div>
-        </div>
-        <div>
           <label>
-            {" "}
             Virselis
+            </label>
             <input
               type="text"
               id="cover"
@@ -142,11 +138,9 @@ export default function BookForm({ setUpdate, book }) {
                 },
               })}
             />
-          </label>
           <div>{errors.cover?.message}</div>
-        </div>
         <div>
-          <input type="submit" value="Issaugoti" />
+          <input className="rounded-md border border-blue-500 px-3 py-1 bg-blue-400 hover:bg-sky-200" type="submit" value="Issaugoti" />
         </div>
       </form>
       <div>{error && <p>{error}</p>}</div>

@@ -5,7 +5,7 @@
       "author": "Harper",
       "category": "Fiction",
       "price": 10.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553383690i/2657.jpg",
       "reserved": "false",
       "id": "1"
     },
@@ -13,19 +13,19 @@
       "title": "A Brief History of Time",
       "author": "Stephen papkin",
       "category": "Fiction",
-      "price": 15.49,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
+      "price": "69",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494421362i/29324861.jpg",
       "reserved": "false",
       "id": "2"
     },
     {
-      "id": "3",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "category": "Fiction",
       "price": 12.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
-      "reserved": "false"
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494421362i/29324861.jpg",
+      "reserved": "false",
+      "id": "3"
     },
     {
       "id": "4",
@@ -33,7 +33,7 @@
       "author": "Tara Westover",
       "category": "Biography",
       "price": 14.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780399590504-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg",
       "reserved": "true"
     },
     {
@@ -42,7 +42,7 @@
       "author": "Frank Herbert",
       "category": "Science Fiction",
       "price": 18.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780441013593-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577043824i/44492285.jpg",
       "reserved": "false"
     },
     {
@@ -51,7 +51,7 @@
       "author": "George Orwell",
       "category": "Dystopian",
       "price": 9.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328834793i/2998152.jpg",
       "reserved": "false"
     },
     {
@@ -60,7 +60,7 @@
       "author": "Jane Austen",
       "category": "Romance",
       "price": 11.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494421362i/29324861.jpg",
       "reserved": "true"
     },
     {
@@ -69,7 +69,7 @@
       "author": "J.D. Salinger",
       "category": "Fiction",
       "price": 10.49,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg",
       "reserved": "false"
     },
     {
@@ -78,7 +78,7 @@
       "author": "J.R.R. Tolkien",
       "category": "Fantasy",
       "price": 13.95,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg",
       "reserved": "true"
     },
     {
@@ -87,7 +87,7 @@
       "author": "Paulo Coelho",
       "category": "Adventure",
       "price": 16.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328834793i/2998152.jpg",
       "reserved": "false"
     },
     {
@@ -95,20 +95,8 @@
       "title": "defe",
       "author": "eeww",
       "category": "Science Fiction",
-      "price": "",
-      "cover": "fsefes",
-      "proie": "33",
-      "reserved": "false"
-    },
-    {
-      "id": "8779",
-      "title": "ceoewef",
-      "author": "jidiwjj 34352",
-      "category": "Science Fiction",
-      "price": "2",
-      "cover": "dfefe",
-      "proie": "",
-      "prie": "",
+      "price": "23.11",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1624548105i/58329296.jpg",
       "reserved": "false"
     },
     {
@@ -117,7 +105,7 @@
       "author": "hell 55",
       "category": "Biography",
       "price": "12",
-      "cover": "grgre",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1624548105i/58329296.jpg",
       "reserved": "false"
     },
     {
@@ -135,25 +123,7 @@
       "author": "harper",
       "category": "Science",
       "price": "12",
-      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
-      "reserved": "false"
-    },
-    {
-      "id": "2787",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "category": "Biography",
-      "price": 10.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
-      "reserved": "false"
-    },
-    {
-      "id": "8fb3",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "category": "Biography",
-      "price": 10.99,
-      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328834793i/2998152.jpg",
       "reserved": "false"
     },
     {
@@ -161,6 +131,15 @@
       "title": "ceoewef",
       "author": "heell jaa  ldd",
       "category": "Dystopian",
+      "price": "2.5",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "9d42",
+      "title": "jdjwjdww",
+      "author": "nnjnj",
+      "category": "Science",
       "price": "2.5",
       "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
       "reserved": "false"

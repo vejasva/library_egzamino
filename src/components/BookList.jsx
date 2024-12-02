@@ -22,10 +22,13 @@ export default function BookList({update, setUpdate}) {
 
   return (
     <>
-      {!error &&
-        books.map((book) => (
-            <Book book={book} setUpdate={setUpdate} key={book.id} />
-        ))}
+
+      <div className="grid gap-4 grid-cols-3">
+        {!error &&
+          books.map((book) => (
+              <Book book={book} setUpdate={setUpdate} key={book.id} />
+          ))}
+      </div>
       {error && <p>{error}</p>}
     </>
   );

@@ -16,18 +16,22 @@ export default function Book({ book, setUpdate }) {
 
   return (
     <>
-      <h1>{book.title}</h1>
-      <h2>{book.author}</h2>
-      <p>{book.category}</p>
-      <p>{book.price}</p>
-      {/* <img src={book.cover} alt={`cover of ${book.title}`} /> */}
-      {book.reserved === "false" && (
-        <button onClick={() => reserveBook(book)}>Išduoti skaitytojui</button>
-      )}
-      {book.reserved === "true" && (
-        <button onClick={() => giveBack(book)}>Grąžinti</button>
-      )}
-      <Link to={`/book/${book.id}`}><button>Redaguoti</button></Link>
+    <div className="m-2 border border-sky-800 bg-slate-100 p-2">
+        <h1 className="text-xl">{book.title}</h1>
+        <h2 className="text-sm">{book.author}</h2>
+        <p className="text-xs">{book.category}</p>
+        <p className="text-xs">{book.price}</p>
+        <img className="w-32 h-40 object-contain text-xs border border-slate-300" src={book.cover} alt={`cover of ${book.title}`} />
+        {book.reserved === "false" && (
+          <button className="rounded-md border border-red-500 px-3 py-1 bg-red-400 hover:bg-sky-200" onClick={() => reserveBook(book)}>Išduoti skaitytojui</button>
+        )}
+        {book.reserved === "true" && (
+          <button className="rounded-md border border-blue-500 px-3 py-1 bg-lime-400 hover:bg-sky-200" onClick={() => giveBack(book)}>Grąžinti</button>
+        )}
+        <Link to={`/book/${book.id}`}>
+          <button className="rounded-md border border-blue-500 px-3 py-1 bg-blue-400 hover:bg-sky-200">Redaguoti</button>
+        </Link>
+        </div>
     </>
   );
 }
