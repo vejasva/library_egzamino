@@ -1,0 +1,169 @@
+{
+  "Books": [
+    {
+      "title": "To Kill",
+      "author": "Harper",
+      "category": "Fiction",
+      "price": 10.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "reserved": "false",
+      "id": "1"
+    },
+    {
+      "title": "A Brief History of Time",
+      "author": "Stephen papkin",
+      "category": "Fiction",
+      "price": 15.49,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
+      "reserved": "false",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Fiction",
+      "price": 12.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "4",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "category": "Biography",
+      "price": 14.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780399590504-L.jpg",
+      "reserved": "true"
+    },
+    {
+      "id": "5",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "category": "Science Fiction",
+      "price": 18.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780441013593-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "6",
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Dystopian",
+      "price": 9.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "7",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category": "Romance",
+      "price": 11.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
+      "reserved": "true"
+    },
+    {
+      "id": "8",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "category": "Fiction",
+      "price": 10.49,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "9",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "price": 13.95,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
+      "reserved": "true"
+    },
+    {
+      "id": "10",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Adventure",
+      "price": 16.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "bd78",
+      "title": "defe",
+      "author": "eeww",
+      "category": "Science Fiction",
+      "price": "",
+      "cover": "fsefes",
+      "proie": "33",
+      "reserved": "false"
+    },
+    {
+      "id": "8779",
+      "title": "ceoewef",
+      "author": "jidiwjj 34352",
+      "category": "Science Fiction",
+      "price": "2",
+      "cover": "dfefe",
+      "proie": "",
+      "prie": "",
+      "reserved": "false"
+    },
+    {
+      "id": "d42f",
+      "title": "dasda",
+      "author": "hell 55",
+      "category": "Biography",
+      "price": "12",
+      "cover": "grgre",
+      "reserved": "false"
+    },
+    {
+      "id": "3973",
+      "title": "efwfewf",
+      "author": "dwffe fewfe99 ",
+      "category": "Science",
+      "price": "23",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "d1a1",
+      "title": "djdjid",
+      "author": "harper",
+      "category": "Science",
+      "price": "12",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "2787",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Biography",
+      "price": 10.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "8fb3",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Biography",
+      "price": 10.99,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "reserved": "false"
+    },
+    {
+      "id": "7f21",
+      "title": "ceoewef",
+      "author": "heell jaa  ldd",
+      "category": "Dystopian",
+      "price": "2.5",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+      "reserved": "false"
+    }
+  ]
+}
